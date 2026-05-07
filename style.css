@@ -1,0 +1,160 @@
+/*@author Abdullah*/
+
+/*Custom CSS*/
+
+html body.bg-full-screen-image {
+    background: url(../assets/images/backgrounds/bg-2.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+.tc{
+    text-align: center !important;
+}
+
+.no-sort::after { display: none!important; }
+
+th.no-sort { pointer-events: none!important; cursor: default!important; background-image: none !important;; }
+
+.img-upload-preview {
+    border: 2px dashed #ddd;
+    height: 192px;
+    width: 192px;
+    float: left;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.img-upload-preview .close-btn {
+    right: 3px;
+    top: 3px;
+    background: rgb(237, 60, 32);
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 0;
+}
+
+
+.sign-upload-preview {
+    border: 2px dashed #ddd;
+    height: 192px;
+    width: 192px;
+    float :left;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.sign-upload-preview .close-btn {
+    right: 3px;
+    top: 3px;
+    background: rgb(237, 60, 32);
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 0;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container {
+    pointer-events: none;
+    touch-action: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection {
+    background: #eee;
+    box-shadow: none;
+}
+
+select[readonly].select2-hidden-accessible + .select2-container .select2-selection__arrow, select[readonly].select2-hidden-accessible + .select2-container .select2-selection__clear {
+    display: none;
+}
+
+.w192 {
+    width: 192px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.login-title{
+    margin-top:10px;
+    font-size: 25px;
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .login-title {
+        font-size: 15px;
+    }  
+}
+
+@media (min-width: 1200px) and (max-width:1300px) {
+    .login-title {
+        font-size: 18px;
+    }  
+}
+
+@media (min-width: 1301px) {
+    .login-title {
+        font-size: 20px;
+    }  
+}
+@media (max-width: 594px) {
+    .login-title {
+        font-size: 15px;
+    }
+}
+
+.hide-arrow::-webkit-inner-spin-button, 
+.hide-arrow::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.h100{
+    height:100px;
+}
+.h90{
+    height:90px;
+}
+.h80 {
+    height: 80px;
+}
+
+.bankChildTitle{
+    background: #fff;
+    z-index: 9;
+    position: absolute;
+    margin-top: 0.75rem;
+    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
